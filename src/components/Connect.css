@@ -1,0 +1,33 @@
+.Cards {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 50px; /* Adjust this value as needed */
+    flex-wrap: wrap; /* This will ensure the icons wrap to the next line if necessary */
+    margin: 0 auto; /* Center align the container */
+}
+.Heading
+{
+   align-items: center;
+   padding-left: 0 px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Cards Link {
+    text-align: center;
+    color: inherit; /* Keep the color same as the parent or change to desired color */
+    margin: 10px; /* Add margin to space out the cards */
+}
+
+.Cards svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.Imgi
+{   
+    padding: 100px;
+    height:150px;
+    width: 150px;
+}

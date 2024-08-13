@@ -1,0 +1,33 @@
+
+
+.btn {
+ 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+   /* Add a hover effect */
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /*background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right:500px;
+
+  border-radius: 10px;
+}
+
+.cv-image {
+  width: 100%;
+  max-width: 400px; /* Limit the width of the CV image */
+  border-radius: 10px;
+}
